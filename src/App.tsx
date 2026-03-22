@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 function ImageRings() {
   // Sử dụng ảnh mặc định thay vì ảnh bạn đã gửi
-  const texture = useTexture('https://picsum.photos/seed/love/200/200');
+  const texture = useTexture('https://files.catbox.moe/6u6t6b.jpg');
   const count = 2000;
   
   const { positions, colors } = useMemo(() => {
